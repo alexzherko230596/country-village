@@ -14,7 +14,7 @@ export const Header = () => {
                             <li className={classes.header__wrapper__menu__list_item}>Фото</li>
                             <li className={classes.header__wrapper__menu__list_item}>Отзывы</li>
                             <li className={classes.header__wrapper__menu__list_item}>Карта</li>
-                            <li className={classes.header__wrapper__menu__list_item}>Записаться</li>
+                            <li className={classes.header__wrapper__menu__list_item}>Забронировать</li>
                         </ul>
                     </nav>
                 </div>
