@@ -10,7 +10,7 @@ export const Header = () => {
                     <img src={logo}/>
                     <nav className={classes.header__wrapper__menu}>
                         <ul className={classes.header__wrapper__menu__list}>
-                            <li className={classes.header__wrapper__menu__list_item}>О доме</li>
+                            <li className={classes.header__wrapper__menu__list_item}>О Доме</li>
                             <li className={classes.header__wrapper__menu__list_item}>Фото</li>
                             <li className={classes.header__wrapper__menu__list_item}>Отзывы</li>
                             <li className={classes.header__wrapper__menu__list_item}>Карта</li>
