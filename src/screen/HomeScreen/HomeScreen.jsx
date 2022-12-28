@@ -20,21 +20,20 @@ export const HomeScreen = () => {
                     <div className="g-container">  
                         <div className={classes.home__about__box}> 
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item__p}> комфорт</p>  
-                                <p className={classes.home__about__box__item__p1}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
+                                <p className={classes.home__about__box__item_title}> Комфорт</p>  
+                                <p className={classes.home__about__box__item_descr}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
                             </div> 
-                        
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item__p}> комфорт</p>  
-                                <p className={classes.home__about__box__item__p1}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
+                                <p className={classes.home__about__box__item_title}> Комфорт</p>  
+                                <p className={classes.home__about__box__item_descr}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
                             </div>
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item__p}> комфорт</p>  
-                                <p className={classes.home__about__box__item__p1}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
+                                <p className={classes.home__about__box__item_title}> Комфорт</p>  
+                                <p className={classes.home__about__box__item_descr}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
                             </div>
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item__p}> комфорт</p>  
-                                <p className={classes.home__about__box__item__p1}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
+                                <p className={classes.home__about__box__item_title}> Комфорт</p>  
+                                <p className={classes.home__about__box__item_descr}> Мы оборудовали домики всем необходимым, чтобы вам было удобно </p>
                             </div>
                         </div>
                     </div>
