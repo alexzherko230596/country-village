@@ -17,8 +17,36 @@ export const HomeScreen = () => {
                    </div>
                 </section>
                 <section className={classes.home__about}>
-
+                    <div className="g-container">
+                        <div className={classes.home__about__block}>
+                                <div className={classes.home__about__block__p1}> 
+                                    <div className={classes.home__about__block__p1__box}>
+                                        <p>Комфорт</p>
+                                        <p className={classes.home__about__block__p5}>Мы оборудовали домики всем неообходимым,чтобы вам было удобно</p>
+                                    </div>
+                                </div>
+                            <div className={classes.home__about__block__p2}> 
+                            <div className={classes.home__about__block__p2__box2}>
+                                         <p>Комфорт</p>
+                                        <p className={classes.home__about__block__p6}>Мы оборудовали домики всем неообходимым,чтобы вам было удобно </p>
+                                     </div>
+                             </div>
+                            <div className={classes.home__about__block__p3}>
+                               <div className={classes.home__about__block__p3__box3}>
+                                     <p>Комфорт</p>
+                                     <p className={classes.home__about__block__p7}>Мы оборудовали домики всем неообходимым,чтобы вам было удобно </p>
+                                </div> 
+                            </div>
+                            <div className={classes.home__about__block__p4} >
+                                <div className={classes.home__about__block__p4__box4}>
+                                     <p>Комфорт</p>
+                                     <p className={classes.home__about__block__p8}>Мы оборудовали домики всем неообходимым,чтобы вам было удобно</p>
+                             </div>
+                             </div>
+                        </div>
+                    </div>
                 </section>
+               
             </div>
         </div>
     )
