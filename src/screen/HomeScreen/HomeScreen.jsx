@@ -1,6 +1,20 @@
 import React from "react";
 import classes from './HomeScreen.module.scss'
 import { Header } from "../../components/Header/Header";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import img1 from '../../img/aboutHome1.jpg'
+import img7 from '../../img/aboutHome7.jpg'
+import img8 from '../../img/aboutHome8.jpg'
+import img9 from '../../img/aboutHome9.jpg'
+import img12 from '../../img/aboutHome12.jpg'
+import img13 from '../../img/aboutHome13.jpg'
+import img14 from '../../img/aboutHome14.jpg'
+import img15 from '../../img/aboutHome15.jpg'
+import img16 from '../../img/aboutHome16.jpg'
+import img17 from '../../img/aboutHome17.jpg'
+import img18 from '../../img/aboutHome18.jpg'
+import img19 from '../../img/aboutHome19.jpg'
 
 export const HomeScreen = () => {
     return(
@@ -38,7 +52,51 @@ export const HomeScreen = () => {
                         </div>
                     </div>
                 </section>
-               
+
+               <section className={classes.home__photoBlock}>
+                    <div className="g-container">
+                        <div className={classes.home__photoBlock__wrapper}>
+                            <Carousel className={classes.home__photoBlock__wrapper__slider}>
+                                <div>
+                                    <img src={img1} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img7} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img8} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img9} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img12} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img13} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img14} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img19} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img15} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img16} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img17} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                                <div>
+                                    <img src={img18} alt="Избушка в Янушках первое фото"/>
+                                </div>
+                            </Carousel>
+                        </div>
+                    </div>
+               </section>
             </div>
         </div>
     )

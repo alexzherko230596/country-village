@@ -113,4 +113,20 @@
         }
         
     }
+
+    &__photoBlock{
+        margin-top: 120px;
+
+        &__wrapper{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+
+            &__slider{
+                width: 75%;
+                height: 100%;
+            }
+        }
+    }
 }
