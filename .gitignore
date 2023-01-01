@@ -17,18 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-aboutHome1.jpg
-aboutHome7.jpg
-aboutHome8.jpg
-aboutHome9.jpg
-aboutHome12.jpg
-aboutHome13.jpg
-aboutHome14.jpg
-aboutHome15.jpg
-aboutHome16.jpg
-aboutHome17.jpg
-aboutHome18.jpg
-aboutHome19.jpg
+
 
 npm-debug.log*
 yarn-debug.log*
