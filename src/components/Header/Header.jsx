@@ -7,7 +7,7 @@ export const Header = () => {
         <section className={classes.header}>
             <div className="g-container">
                 <div className={classes.header__wrapper}>
-                    <img src={logo}/>
+                    <img src={logo} alt='Logo'/>
                     <nav className={classes.header__wrapper__menu}>
                         <ul className={classes.header__wrapper__menu__list}>
                             <li className={classes.header__wrapper__menu__list_item}>О Доме</li>
