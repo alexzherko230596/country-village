@@ -17,6 +17,7 @@ import img18 from '../../img/aboutHome18.jpg'
 import img19 from '../../img/aboutHome19.jpg'
 import img20 from '../../img/aboutHouse20.jpg'
 import sauna from '../../img/sauna.svg'
+import leaf from '../../img/leaf.svg'
 import { Map } from "../../components/Map/Map";
 import BookPlace from "../../components/BookPlace/BookPlace";
 import { Link } from "react-scroll";
@@ -66,6 +67,7 @@ export const HomeScreen = () => {
                     </div>
                 </section>
                 <section className={classes.home__abouthome} id="BlockAbout">
+                    <img src={leaf} className={classes.home__abouthome_img} alt="Лист"/>
                     <div className="g-container" >
                      <div className={classes.home__abouthome__wrapper}>
                         <div className={classes.home__abouthome__wrapper__img}> 
@@ -84,7 +86,6 @@ export const HomeScreen = () => {
                                     <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
-                                    
                                </div>
                                <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
