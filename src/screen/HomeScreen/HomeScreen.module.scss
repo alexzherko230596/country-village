@@ -43,6 +43,9 @@
                 margin-top: 40px;
                 transition: .5s all;
                 cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             &_button:hover{

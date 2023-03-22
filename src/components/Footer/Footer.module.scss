@@ -1,0 +1,56 @@
+.footer{
+    margin-top: 80px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    min-height: 260px;
+    // align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+    &__wrapper{
+
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 24px;
+        height: 100%;
+        justify-content: space-between;
+
+        &_logo{
+            width: 200px;
+            height: 55px;
+        }
+
+        &__info{
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 40px;
+
+            &__item{
+                flex-direction: row;
+                align-items: center;
+
+                &_img{
+                    width: 32px;
+                    height: 32px;
+                }
+
+                &_title{
+                    margin-left: 12px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #E6DBCA;
+                }
+            }
+        }
+
+        &_final{
+            margin-top: 32px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #E6DBCA;
+        }
+    }
+}

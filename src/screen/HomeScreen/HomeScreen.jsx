@@ -17,6 +17,10 @@ import img18 from '../../img/aboutHome18.jpg'
 import img19 from '../../img/aboutHome19.jpg'
 import img20 from '../../img/aboutHouse20.jpg'
 import sauna from '../../img/sauna.svg'
+import { Map } from "../../components/Map/Map";
+import BookPlace from "../../components/BookPlace/BookPlace";
+import { Link } from "react-scroll";
+import Footer from "../../components/Footer/Footer";
 
 export const HomeScreen = () => {
     return(
@@ -28,7 +32,14 @@ export const HomeScreen = () => {
                         <div className={classes.home__main__wrapper}>
                             <h1 className={classes.home__main__wrapper_h1}>Проведите выходные на берегу живописного озера в деревне Янушки </h1>
                             <h2 className={classes.home__main__wrapper_h2}>Проведите выходные на берегу живописного озера в деревне Янушки </h2>
-                            <button className={classes.home__main__wrapper_button}>Забронировать</button>
+                            <Link 
+                                className={classes.home__main__wrapper_button}
+                                to="BlockBook"
+                                smooth={true}
+                                offset={-70}
+                                duration={500}>
+                                    Забронировать
+                            </Link>
                         </div >
                    </div>
                 </section>
@@ -54,7 +65,7 @@ export const HomeScreen = () => {
                         </div>
                     </div>
                 </section>
-                <section className={classes.home__abouthome}>
+                <section className={classes.home__abouthome} id="BlockAbout">
                     <div className="g-container" >
                      <div className={classes.home__abouthome__wrapper}>
                         <div className={classes.home__abouthome__wrapper__img}> 
@@ -70,35 +81,31 @@ export const HomeScreen = () => {
                                         <p>Мы оборудовали домики </p>
                                     </div> 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
-                                    <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img2} alt='sauna'/>
+                                    <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
                                     
                                </div>
                                <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
-                                   <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
-                                   <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                    <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
+                                    <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
-                                    <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                        <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
                                </div>
                                
                             </div>
-                           
-                        <p className={classes.home__abouthome__wrapper__block_price}>200 рублей/сутки</p>
-                            
+                            <p className={classes.home__abouthome__wrapper__block_price}>200 рублей/сутки</p>
                         </div>
-                        
-                            
                      </div>
                  </div>
 
                  </section>
 
-               <section className={classes.home__photoBlock}>
+               <section className={classes.home__photoBlock} id="BlockPhoto">
                     <div className="g-container">
                         <div className={classes.home__photoBlock__wrapper}>
                             <Carousel className={classes.home__photoBlock__wrapper__slider}>
@@ -142,6 +149,9 @@ export const HomeScreen = () => {
                         </div>
                     </div>
                </section>
+               <Map />
+               <BookPlace />
+               <Footer />
             </div>
         </div>
     )

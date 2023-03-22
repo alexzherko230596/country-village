@@ -1,0 +1,62 @@
+.map{
+    margin-top: 64px;
+
+    &__wrapper{
+        flex-direction: row;
+
+        &__info{
+            width: 33%;
+            height: 500px;
+            background-color: #E6DBCA;
+
+            &_title{
+                text-align: center;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                color: #99856C;
+                margin-top: 40px;
+            }
+
+            &__data{
+                flex-direction: column;
+                margin-top: 48px;
+                margin-left: 32px;
+
+                &__item{
+                    flex-direction: row;
+                    margin-top: 16px;
+                    align-items: center;
+
+                    &_img{
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    &_title{
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #99856C;
+                        margin-left: 16px;
+                    }
+                }
+            }
+
+        }
+
+        &__map{
+            width: 67%;
+            height: 500px;
+        }
+
+    }
+}
+
+.div{
+    div{
+        display: block;
+    }
+}
+
+
