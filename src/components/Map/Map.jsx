@@ -36,14 +36,14 @@ export const Map = () => {
                         <MapContainer 
                             style = {{height: '500px', width: '100%'}}
                             className = {classes.div}
-                            center = {[53.651185, 26.796954]}
+                            center = {[53.64392618108898, 26.790249696053536]}
                             zoom={15}
                             scrollWheelZoom = {false}>
                             <TileLayer 
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
                                 <Marker
-                                    position={[53.651185, 26.796954]}>
+                                    position={[53.64392618108898, 26.790249696053536]}>
                                 </Marker>
                         </MapContainer>
                     </div>
