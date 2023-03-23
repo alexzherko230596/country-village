@@ -64,7 +64,7 @@ export const HomeScreen = () => {
                             </div>
                             <div className={classes.home__about__box__item}>
                                 <p className={classes.home__about__box__item_title}> Баня</p>  
-                                <p className={classes.home__about__box__item_descr}> Баня русская с настоящим мокрым паром на дровах в сосоновом срубепше </p>
+                                <p className={classes.home__about__box__item_descr}> Баня русская с настоящим мокрым паром на дровах в сосоновом срубе </p>
                             </div>
                         </div>
                     </div>
