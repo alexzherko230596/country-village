@@ -12,7 +12,7 @@ const BookPlace = () => {
     const form = useRef();
 
     const handleForm = (e) => {
-        console.log(e.target)
+        console.log(name,phone)
         e.preventDefault();
         setLoadingForm(true)
         setErrorText('')
@@ -23,6 +23,7 @@ const BookPlace = () => {
         emailjs.send(process.env.REACT_APP_MAIL_TEMPLATE, process.env.REACT_APP_MESSAGE_TEMPLATE, templateParams, process.env.REACT_APP_USER_NAME)
         .then((result) => {
             setLoadingForm(false)
+            console.log(result)
             setFormSend(true)
         }, 
         (error) => {
