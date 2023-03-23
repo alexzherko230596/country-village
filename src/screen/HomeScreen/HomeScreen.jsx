@@ -31,8 +31,8 @@ export const HomeScreen = () => {
                 <section className={classes.home__main}>
                    <div className="g-container">
                         <div className={classes.home__main__wrapper}>
-                            <h1 className={classes.home__main__wrapper_h1}>Проведите выходные на берегу живописного озера в деревне Янушки </h1>
-                            <h2 className={classes.home__main__wrapper_h2}>Проведите выходные на берегу живописного озера в деревне Янушки </h2>
+                            <h1 className={classes.home__main__wrapper_h1}>Ваши незабываемые выходные у живописной реки СУЛА в деревне Янушки </h1>
+                            <h2 className={classes.home__main__wrapper_h2}>Проведите выходные на лоне природы в обьтиях леса и реки </h2>
                             <Link 
                                 className={classes.home__main__wrapper_button}
                                 to="BlockBook"

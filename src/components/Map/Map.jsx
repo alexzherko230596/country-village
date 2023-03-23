@@ -16,15 +16,15 @@ export const Map = () => {
                         <div className={classes.map__wrapper__info__data}>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={address} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>д.Янушки </p>
+                                <p className={classes.map__wrapper__info__data__item_title}>Минская область д.Янушки GPS Android 53.64392618108898, 26.790249696053536 GPS IOS 53°38'38.1"N 26°47'24.9"E</p>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={email} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>Имейл</p>
+                                <p className={classes.map__wrapper__info__data__item_title}>pavelkminsk@gmail.com</p>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={phone} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>Телефон</p>
+                                <p className={classes.map__wrapper__info__data__item_title}>+375293482358,+375296516568</p>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={telegram} alt = {'address'}/>
