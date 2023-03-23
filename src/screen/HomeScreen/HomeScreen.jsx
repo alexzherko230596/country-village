@@ -49,23 +49,20 @@ export const HomeScreen = () => {
                     <div className="g-container">  
                         <div className={classes.home__about__box}> 
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Расстояние</p>  
-                                <p className={classes.home__about__box__item_descr}> Рядом с Минском  на хуторе (58 км от МКАД)
- </p>
+                                <p className={classes.home__about__box__item_title}>Расстояние</p>  
+                                <p className={classes.home__about__box__item_descr}>Рядом с Минском  на хуторе (58 км от МКАД)</p>
                             </div> 
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Климат</p>  
-                                <p className={classes.home__about__box__item_descr}> У нас всегда тепло отопление с погодозависимой автоматикой
-</p>
+                                <p className={classes.home__about__box__item_title}>Климат</p>  
+                                <p className={classes.home__about__box__item_descr}>У нас всегда тепло отопление с погодозависимой автоматикой</p>
                             </div>
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Река</p>  
-                                <p className={classes.home__about__box__item_descr}> Одна из самых чистых рек Беларуси река Сула в 70 метрах
- </p>
+                                <p className={classes.home__about__box__item_title}>Река</p>  
+                                <p className={classes.home__about__box__item_descr}>Одна из самых чистых рек Беларуси река Сула в 70 метрах</p>
                             </div>
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Баня</p>  
-                                <p className={classes.home__about__box__item_descr}> Баня русская с настоящим мокрым паром на дровах в сосоновом срубепше </p>
+                                <p className={classes.home__about__box__item_title}>Баня</p>  
+                                <p className={classes.home__about__box__item_descr}>Баня русская с настоящим мокрым паром на дровах в сосоновом срубепше </p>
                             </div>
                         </div>
                     </div>
