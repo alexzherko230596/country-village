@@ -1,7 +1,6 @@
 import React, {useState, useRef} from "react";
 import classes from './BookPlace.module.scss'
 import emailjs from '@emailjs/browser';
-import cottage from '../../img/cottage.svg'
 
 const BookPlace = () => {
 
@@ -42,7 +41,6 @@ const BookPlace = () => {
 
     return(
         <section className={classes.book} id="BlockBook">
-            <img src={cottage} className={classes.book_img} alt="cottage"/>
             <div className="g-container">
                 <div className={classes.book__wrapper}>
                     <div className={classes.book__wrapper__left}>

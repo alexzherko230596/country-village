@@ -34,7 +34,7 @@ export const Header = () => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}>
-                                    Отзывы
+                                    Стоимость
                             </Link>
                             <Link 
                                 className={classes.header__wrapper__menu__list_item}

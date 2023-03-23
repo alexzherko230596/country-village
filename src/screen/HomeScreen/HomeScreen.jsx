@@ -22,6 +22,7 @@ import { Map } from "../../components/Map/Map";
 import BookPlace from "../../components/BookPlace/BookPlace";
 import { Link } from "react-scroll";
 import Footer from "../../components/Footer/Footer";
+import Price from "../../components/Price/Price";
 
 export const HomeScreen = () => {
     return(
@@ -48,23 +49,22 @@ export const HomeScreen = () => {
                     <div className="g-container">  
                         <div className={classes.home__about__box}> 
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Расстояние</p>  
-                                <p className={classes.home__about__box__item_descr}> Рядом с Минском  на хуторе (58 км от МКАД)
- </p>
+                                <p className={classes.home__about__box__item_title}>Расстояние</p>  
+                                <p className={classes.home__about__box__item_descr}>Рядом с Минском  на хуторе (58 км от МКАД)</p>
                             </div> 
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Климат</p>  
-                                <p className={classes.home__about__box__item_descr}> У нас всегда тепло отопление с погодозависимой автоматикой
-</p>
+                                <p className={classes.home__about__box__item_title}>Климат</p>  
+                                <p className={classes.home__about__box__item_descr}>У нас всегда тепло отопление с погодозависимой автоматикой</p>
                             </div>
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Река</p>  
-                                <p className={classes.home__about__box__item_descr}> Одна из самых чистых рек Беларуси река Сула в 70 метрах
- </p>
+                                <p className={classes.home__about__box__item_title}>Река</p>  
+                                <p className={classes.home__about__box__item_descr}>Одна из самых чистых рек Беларуси река Сула в 70 метрах</p>
                             </div>
                             <div className={classes.home__about__box__item}>
-                                <p className={classes.home__about__box__item_title}> Баня</p>  
-                                <p className={classes.home__about__box__item_descr}> Баня русская с настоящим мокрым паром на дровах в сосоновом срубе </p>
+
+                                <p className={classes.home__about__box__item_title}>Баня</p>  
+                                <p className={classes.home__about__box__item_descr}>Баня русская с настоящим мокрым паром на дровах в сосоновом срубепше </p>
+
                             </div>
                         </div>
                     </div>
@@ -72,16 +72,16 @@ export const HomeScreen = () => {
                 <section className={classes.home__abouthome} id="BlockAbout">
                     <img src={leaf} className={classes.home__abouthome_img} alt="Лист"/>
                     <div className="g-container" >
-                     <div className={classes.home__abouthome__wrapper}>
+                        <div className={classes.home__abouthome__wrapper}>
                         <div className={classes.home__abouthome__wrapper__img}> 
                         <img src={img20} alt="Избушка в Янушках первое фото"/>
                         </div>
                         <div className={classes.home__abouthome__wrapper__block}>
                             <p className={classes.home__abouthome__wrapper__block_title}>О Доме</p>
-                           
+                            
                             <div className={classes.home__abouthome__wrapper__block__test} >
-                               <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
-                                   <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
+                                <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
+                                    <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
                                         <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
@@ -89,8 +89,8 @@ export const HomeScreen = () => {
                                     <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
-                               </div>
-                               <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
+                                </div>
+                                <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
                                     <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
@@ -99,16 +99,32 @@ export const HomeScreen = () => {
                                         <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
                                         <p>Мы оборудовали домики </p>
                                     </div> 
-                               </div>
-                               
+                                </div>
+                                
                             </div>
-                            <p className={classes.home__abouthome__wrapper__block_price}>200 рублей/сутки</p>
+                            <p className={classes.home__abouthome__wrapper__block_price}></p>
                         </div>
-                     </div>
-                 </div>
+                        </div>
+                    </div>
+                </section>
 
-                 </section>
-
+                <section className={classes.home__aboutHomeMore}>
+                    <div className="g-container">
+                        <div className={classes.home__aboutHomeMore__wrapper}>
+                            <div className={classes.home__aboutHomeMore__wrapper__text}>
+                                <p className={classes.home__aboutHomeMore__wrapper__text_title}>Усадьба располагается на хуторе, в деревне Янушки (Брестское    направление) 40 минут езды от кольцевой дороги в сторону г.п. Рубежевичи. 
+                                    Дом теплый, отапливается круглосуточно электрокотлом с погодозависимой автоматикой.
+                                    Домик  находится  в экологической чистой  зоне, свежий воздух, т.к. хутор расположен  в лесном массиве, состоящей в основном из сосновой хвои. Возле  усадьбы протекает чистейшая  река СУЛА  всего в 70-ти  метрах от дома , в которой водится рыба форель. В летний зной , что бы отдохнуть от жары необходимо, и даже нужно искупаться в этой замечательной речке. Летом она не глубокая  и поэтому принимать водные ванны  можно и детям.
+                                    Здесь  царит тишина и спокойствие.  Все располагает к замечательному отдыху. Возле дома, а точнее к  бане (Баня отдельно стоящая, из соснового сруба 6х6) примыкает небольшое озерцо, где после бани можно окунуться зимой  в прорубь, а летом есть возможность половить и покормить рыбку. 
+                                    Участок просторный, площадью 25 соток Дом площадью  65 м. кв. В усадьбе 2 комнаты. Внутренняя обстановка напоминает квартиру – студию: из небольшой прихожей попадаешь в просторную комнату с компактной кухонной зоной  Далее идет вторая небольшая комната. Сан. узел. оборудован всем необходимым: унитаз с подогревом сиденья  + биде. В доме имеется печь-камин, LCD телевизор (триколор), холодильник, микроволновая печь, полноценная кухня, предоставляется постельной белье, полотенца.
+                                    Имеется мангал и угли для шашлыка. Дом очень теплый : обогревается паровым  электороотоплением посредством батарей, которые     проведены по всему дому с подогревом полов, имеется  печка  и  печь-камин. Подъездные пути хорошие: зимой чистят дорогу.
+                                </p>
+                            </div>
+                            <img alt='house outside' className={classes.home__aboutHomeMore__wrapper_img} src={require('../../img/aboutHome2.jpg')}/>
+                        </div>
+                    </div>
+                </section>
+                <Price />
                <section className={classes.home__photoBlock} id="BlockPhoto">
                     <div className="g-container">
                         <div className={classes.home__photoBlock__wrapper}>
