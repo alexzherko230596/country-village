@@ -3,19 +3,30 @@ import classes from './HomeScreen.module.scss'
 import { Header } from "../../components/Header/Header";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import img1 from '../../img/aboutHome1.jpg'
-import img7 from '../../img/aboutHome7.jpg'
-import img8 from '../../img/aboutHome8.jpg'
-import img9 from '../../img/aboutHome9.jpg'
-import img12 from '../../img/aboutHome12.jpg'
-import img13 from '../../img/aboutHome13.jpg'
-import img14 from '../../img/aboutHome14.jpg'
-import img15 from '../../img/aboutHome15.jpg'
-import img16 from '../../img/aboutHome16.jpg'
-import img17 from '../../img/aboutHome17.jpg'
-import img18 from '../../img/aboutHome18.jpg'
-import img19 from '../../img/aboutHome19.jpg'
-import img20 from '../../img/aboutHouse20.jpg'
+import img1 from '../../img/album1.jpg'
+import img2 from '../../img/album2.jpg'
+import img3 from '../../img/album3.jpg'
+import img4 from '../../img/album4.jpg'
+import img5 from '../../img/album5.jpg'
+import img6 from '../../img/album6.jpg'
+import img7 from '../../img/album7.jpg'
+import img8 from '../../img/album8.jpg'
+import img9 from '../../img/album9.jpg'
+import img10 from '../../img/album10.jpg'
+import img11 from '../../img/album11.jpg'
+import img12 from '../../img/album12.jpg'
+import img13 from '../../img/album13.jpg'
+import img14 from '../../img/album14.jpg'
+import img15 from '../../img/album15.jpg'
+import img16 from '../../img/album16.jpg'
+import img17 from '../../img/album17.jpg'
+import img18 from '../../img/album18.jpg'
+import img19 from '../../img/album19.jpg'
+import img20 from '../../img/album20.jpg'
+import img21 from '../../img/album21.jpg'
+import img22 from '../../img/album22.jpg'
+import img23 from '../../img/album23.jpg'
+import img0 from '../../img/aboutHouse20.jpg'
 import sauna from '../../img/sauna.svg'
 import leaf from '../../img/leaf.svg'
 import { Map } from "../../components/Map/Map";
@@ -32,8 +43,8 @@ export const HomeScreen = () => {
                 <section className={classes.home__main}>
                    <div className="g-container">
                         <div className={classes.home__main__wrapper}>
-                            <h1 className={classes.home__main__wrapper_h1}>Ваши незабываемые выходные у живописной реки СУЛА в деревне Янушки </h1>
-                            <h2 className={classes.home__main__wrapper_h2}>Проведите выходные на лоне природы в обьтиях леса и реки </h2>
+                            <h1 className={classes.home__main__wrapper_h1}>Ваши незабываемые выходные у живописной реки СУЛА в деревне Янушки</h1>
+                            <h2 className={classes.home__main__wrapper_h2}>Проведите выходные на природе в объятиях леса и реки</h2>
                             <Link 
                                 className={classes.home__main__wrapper_button}
                                 to="BlockBook"
@@ -74,7 +85,7 @@ export const HomeScreen = () => {
                     <div className="g-container" >
                         <div className={classes.home__abouthome__wrapper}>
                         <div className={classes.home__abouthome__wrapper__img}> 
-                        <img src={img20} alt="Избушка в Янушках первое фото"/>
+                        <img src={img0} alt="Избушка в Янушках первое фото"/>
                         </div>
                         <div className={classes.home__abouthome__wrapper__block}>
                             <p className={classes.home__abouthome__wrapper__block_title}>О Доме</p>
@@ -130,40 +141,73 @@ export const HomeScreen = () => {
                         <div className={classes.home__photoBlock__wrapper}>
                             <Carousel className={classes.home__photoBlock__wrapper__slider}>
                                 <div>
-                                    <img src={img1} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img1} alt="Избушка 1"/>
                                 </div>
                                 <div>
-                                    <img src={img7} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img2} alt="Избушка 2"/>
                                 </div>
                                 <div>
-                                    <img src={img8} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img3} alt="Избушка 3"/>
                                 </div>
                                 <div>
-                                    <img src={img9} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img4} alt="Избушка 4"/>
                                 </div>
                                 <div>
-                                    <img src={img12} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img5} alt="Избушка 5"/>
                                 </div>
                                 <div>
-                                    <img src={img13} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img6} alt="Избушка 6"/>
                                 </div>
                                 <div>
-                                    <img src={img14} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img7} alt="Избушка 7"/>
                                 </div>
                                 <div>
-                                    <img src={img19} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img8} alt="Избушка 8"/>
                                 </div>
                                 <div>
-                                    <img src={img15} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img9} alt="Избушка 9"/>
                                 </div>
                                 <div>
-                                    <img src={img16} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img10} alt="Избушка 10"/>
                                 </div>
                                 <div>
-                                    <img src={img17} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img11} alt="Избушка 11"/>
                                 </div>
                                 <div>
-                                    <img src={img18} alt="Избушка в Янушках первое фото"/>
+                                    <img src={img12} alt="Избушка 12"/>
+                                </div>
+                                <div>
+                                    <img src={img13} alt="Избушка 13"/>
+                                </div>
+                                <div>
+                                    <img src={img14} alt="Избушка 14"/>
+                                </div>
+                                <div>
+                                    <img src={img15} alt="Избушка 15"/>
+                                </div>
+                                <div>
+                                    <img src={img16} alt="Избушка 16"/>
+                                </div>
+                                <div>
+                                    <img src={img17} alt="Избушка 17"/>
+                                </div>
+                                <div>
+                                    <img src={img18} alt="Избушка 18"/>
+                                </div>
+                                <div>
+                                    <img src={img19} alt="Избушка 19"/>
+                                </div>
+                                <div>
+                                    <img src={img20} alt="Избушка 20"/>
+                                </div>
+                                <div>
+                                    <img src={img21} alt="Избушка 21"/>
+                                </div>
+                                <div>
+                                    <img src={img22} alt="Избушка 22"/>
+                                </div>
+                                <div>
+                                    <img src={img23} alt="Избушка 23"/>
                                 </div>
                             </Carousel>
                         </div>

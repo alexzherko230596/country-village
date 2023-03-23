@@ -5,7 +5,7 @@ import cottage from '../../img/cottage.svg'
 const Price = () => {
 
     return(
-        <section className={classes.price}>
+        <section className={classes.price} id="blockPrice">
             <img src={cottage} className={classes.price_img} alt="cottage"/>
             <div className="g-container">
                 <div className={classes.price__wrapper}>

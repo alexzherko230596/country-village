@@ -16,15 +16,19 @@ export const Map = () => {
                         <div className={classes.map__wrapper__info__data}>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={address} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>Минская область д.Янушки GPS Android 53.64392618108898, 26.790249696053536 GPS IOS 53°38'38.1"N 26°47'24.9"E</p>
+                                <a href="https://goo.gl/maps/P9TxMeK5cj1i6WdU7" target="_blank" rel="noreferrer" className={classes.map__wrapper__info__data__item_title}>Мы на карте</a>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={email} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>pavelkminsk@gmail.com</p>
+                                <a className={classes.map__wrapper__info__data__item_title} href="mailto:pavelkminsk@gmail.com">pavelkminsk@gmail.com</a>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={phone} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>+375293482358,+375296516568</p>
+                                <a href="tel:+375293482358" className={classes.map__wrapper__info__data__item_title}>+375293482358</a>
+                            </div>
+                            <div className={classes.map__wrapper__info__data__item}>
+                                <img className={classes.map__wrapper__info__data__item_img} src={phone} alt = {'address'}/>
+                                <a href="tel:+375296516568" className={classes.map__wrapper__info__data__item_title}>+375296516568</a>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={telegram} alt = {'address'}/>

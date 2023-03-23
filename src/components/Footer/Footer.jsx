@@ -15,15 +15,15 @@ const Footer = () => {
                     <div className={classes.footer__wrapper__info}>   
                         <div className={classes.footer__wrapper__info__item}>
                             <img src={address} alt='address' className={classes.footer__wrapper__info__item_img}/>
-                            <p className={classes.footer__wrapper__info__item_title}>text</p>
+                            <a href="https://goo.gl/maps/P9TxMeK5cj1i6WdU7" target="_blank" rel="noreferrer" className={classes.footer__wrapper__info__item_title}>Мы на карте</a>
                         </div>
                         <div className={classes.footer__wrapper__info__item}>
                             <img src={phone} alt='phone' className={classes.footer__wrapper__info__item_img}/>
-                            <p className={classes.footer__wrapper__info__item_title}>text2</p>
+                            <a href="tel:+375293482358" className={classes.footer__wrapper__info__item_title}>+375293482358</a>
                         </div>
                         <div className={classes.footer__wrapper__info__item}>
                             <img src={email} alt='email' className={classes.footer__wrapper__info__item_img}/>
-                            <p className={classes.footer__wrapper__info__item_title}>text3</p>
+                            <a className={classes.footer__wrapper__info__item_title} href="mailto:pavelkminsk@gmail.com">pavelkminsk@gmail.com</a>
                         </div>
                         <div className={classes.footer__wrapper__info__item}>
                             <img src={telegram} alt='telegram' className={classes.footer__wrapper__info__item_img}/>

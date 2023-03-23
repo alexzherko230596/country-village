@@ -22,19 +22,19 @@ export const Header = () => {
                             </Link>
                             <Link 
                                 className={classes.header__wrapper__menu__list_item}
+                                to="blockPrice"
+                                smooth={true}
+                                offset={-70}
+                                duration={500}>
+                                    Стоимость
+                            </Link>
+                            <Link 
+                                className={classes.header__wrapper__menu__list_item}
                                 to="BlockPhoto"
                                 smooth={true}
                                 offset={-70}
                                 duration={500}>
                                     Фото
-                            </Link>
-                            <Link 
-                                className={classes.header__wrapper__menu__list_item}
-                                to="BlockFeedback"
-                                smooth={true}
-                                offset={-70}
-                                duration={500}>
-                                    Стоимость
                             </Link>
                             <Link 
                                 className={classes.header__wrapper__menu__list_item}
@@ -50,12 +50,8 @@ export const Header = () => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}>
-                                    Забронировать
+                                    Бронирование
                             </Link>
-                            {/* <li className={classes.header__wrapper__menu__list_item}>Фото</li>
-                            <li className={classes.header__wrapper__menu__list_item}>Отзывы</li>
-                            <li className={classes.header__wrapper__menu__list_item}>Карта</li>
-                            <li className={classes.header__wrapper__menu__list_item}>Забронировать</li> */}
                         </ul>
                     </nav>
                 </div>
