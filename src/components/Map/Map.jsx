@@ -16,7 +16,7 @@ export const Map = () => {
                         <div className={classes.map__wrapper__info__data}>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={address} alt = {'address'}/>
-                                <a href="https://goo.gl/maps/P9TxMeK5cj1i6WdU7" target="_blank" rel="noreferrer" className={classes.map__wrapper__info__data__item_title}>Мы на карте</a>
+                                <a href="https://goo.gl/maps/P9TxMeK5cj1i6WdU7" target="_blank" rel="noreferrer" className={classes.map__wrapper__info__data__item_title}>Деревня Янушки</a>
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={email} alt = {'address'}/>

@@ -290,6 +290,15 @@
                     font-size: 16px;
                     line-height: 20px;
                     color: #E6DBCA;
+                    margin-top: 48px;
+                    line-height: 135%;
+                    letter-spacing: 0.02em;
+
+                    &_bel{
+                        margin-top: 48px;
+                        text-align: center;
+                        font-weight: 700;
+                    }
                 }
             }
 
