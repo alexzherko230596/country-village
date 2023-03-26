@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                         <div className={classes.footer__wrapper__info__item}>
                             <img src={telegram} alt='telegram' className={classes.footer__wrapper__info__item_img}/>
-                            <p className={classes.footer__wrapper__info__item_title}>text4</p>
+                            <p className={classes.footer__wrapper__info__item_title}>@ElenaYanyshki</p>
                         </div>
                     </div>
                     <p className={classes.footer__wrapper_final}>© 2023 Усадьба "В Янушках". Все права защищены.</p>

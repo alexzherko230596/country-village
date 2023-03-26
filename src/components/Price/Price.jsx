@@ -17,8 +17,8 @@ const Price = () => {
                             </div>
                             <div className={classes.price__wrapper__blocks__middle}>
                                 <p className={classes.price__wrapper__blocks__middle_text}>Понедельник - Четверг</p>
-                                <p className={classes.price__wrapper__blocks__middle_text}>Заезд от: <span>16:00</span></p>
-                                <p className={classes.price__wrapper__blocks__middle_text}>Выезд до: <span>12:00</span> </p>
+                                <p className={classes.price__wrapper__blocks__middle_text}></p>
+                                <p className={classes.price__wrapper__blocks__middle_text}> </p>
                             </div>
                             <p className={classes.price__wrapper__blocks_price}>150 <br/> рублей</p>
                         </div>
@@ -29,8 +29,8 @@ const Price = () => {
                             </div>
                             <div className={classes.price__wrapper__blocks__middle}>
                                 <p className={classes.price__wrapper__blocks__middle_text}>Пятница - Воскресенье</p>
-                                <p className={classes.price__wrapper__blocks__middle_text}>Заезд от: <span>16:00</span></p>
-                                <p className={classes.price__wrapper__blocks__middle_text}>Выезд до: <span>12:00</span> </p>
+                                <p className={classes.price__wrapper__blocks__middle_text}></p>
+                                <p className={classes.price__wrapper__blocks__middle_text}> </p>
                             </div>
                             <p className={classes.price__wrapper__blocks_price}>200 <br/> рублей</p>
                         </div>
@@ -41,10 +41,10 @@ const Price = () => {
                             </div>
                             <div className={classes.price__wrapper__blocks__middle}>
                                 <p className={classes.price__wrapper__blocks__middle_text}>Праздничные дни</p>
-                                <p className={classes.price__wrapper__blocks__middle_text}>Заезд от: <span>16:00</span></p>
-                                <p className={classes.price__wrapper__blocks__middle_text}>Выезд до: <span>12:00</span> </p>
+                                <p className={classes.price__wrapper__blocks__middle_text}></p>
+                                <p className={classes.price__wrapper__blocks__middle_text}> </p>
                             </div>
-                            <p className={`${classes.price__wrapper__blocks_price} ${classes.price__wrapper__blocks_price_low}`}>Стоимость<br/>индивидуальная</p>
+                            <p className={`${classes.price__wrapper__blocks_price} ${classes.price__wrapper__blocks_price_low}`}>Стоимость<br/>договорная</p>
                         </div>
                     </div>
                     <p className={classes.price__wrapper_more}>Дополнительные услуги</p>

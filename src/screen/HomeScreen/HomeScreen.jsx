@@ -46,7 +46,7 @@ export const HomeScreen = () => {
                 <section className={classes.home__main}>
                    <div className="g-container">
                         <div className={classes.home__main__wrapper}>
-                            <h1 className={classes.home__main__wrapper_h1}>Ваши незабываемые выходные у живописной реки СУЛА в деревне Янушки</h1>
+                            <h1 className={classes.home__main__wrapper_h1}>Ваши незабываемые выходные на хуторе у живописной реки СУЛА в деревне Янушки</h1>
                             <h2 className={classes.home__main__wrapper_h2}>Проведите выходные на природе в объятиях леса и реки</h2>
                             <Link 
                                 className={classes.home__main__wrapper_button}
@@ -56,7 +56,7 @@ export const HomeScreen = () => {
                                 duration={500}>
                                     Забронировать
                             </Link>
-                            <p className={classes.home__main__wrapper_bel}>Калi ласка, запрашаем да нас, пважаныя госцi !!!</p>
+                            <p className={classes.home__main__wrapper_bel}>Калi ласка, запрашаем да нас, паважаныя госцi !!!</p>
                         </div >
                    </div>
                 </section>
@@ -65,20 +65,20 @@ export const HomeScreen = () => {
                         <div className={classes.home__about__box}> 
                             <div className={classes.home__about__box__item}>
                                 <p className={classes.home__about__box__item_title}>Расстояние</p>  
-                                <p className={classes.home__about__box__item_descr}>Рядом с Минском  на хуторе (58 км от МКАД)</p>
+                                <p className={classes.home__about__box__item_descr}> Недалеко от  Минска   (58 км от МКАД)</p>
                             </div> 
                             <div className={classes.home__about__box__item}>
                                 <p className={classes.home__about__box__item_title}>Климат</p>  
-                                <p className={classes.home__about__box__item_descr}>У нас всегда тепло отопление с погодозависимой автоматикой</p>
+                                <p className={classes.home__about__box__item_descr}>У нас всегда тепло: отопление с погодозависимой автоматикой</p>
                             </div>
                             <div className={classes.home__about__box__item}>
                                 <p className={classes.home__about__box__item_title}>Река</p>  
-                                <p className={classes.home__about__box__item_descr}>Одна из самых чистых рек Беларуси река Сула в 70 метрах</p>
+                                <p className={classes.home__about__box__item_descr}>Одна из самых чистых рек Беларуси - река Сула - в 70 метрах от дома </p>
                             </div>
                             <div className={classes.home__about__box__item}>
 
                                 <p className={classes.home__about__box__item_title}>Баня</p>  
-                                <p className={classes.home__about__box__item_descr}>Баня русская с настоящим мокрым паром на дровах в сосоновом срубепше </p>
+                                <p className={classes.home__about__box__item_descr}>Русская баня из соснового сруба на дровах с настоящим мокрым паром  </p>
 
                             </div>
                         </div>
@@ -128,9 +128,9 @@ export const HomeScreen = () => {
                         <div className={classes.home__aboutHomeMore__wrapper}>
                             <div className={classes.home__aboutHomeMore__wrapper__text}>
                                 <p className={classes.home__aboutHomeMore__wrapper__text_title}>
-                                Усадьба располагается на хуторе, в деревне Янушки (Брестское направление) 40 минут езды от кольцевой дороги в сторону г.п. Рубежевичи. .Участок просторный, площадью 25 соток Дом площадью 65 м. кв. В усадьбе 2 комнаты и 6 спальных мест. Внутренняя обстановка напоминает квартиру – студию: из небольшой прихожей попадаешь в просторную комнату с компактной кухонной зоной Далее идет вторая небольшая комната. Сан. узел. оборудован всем необходимым: унитаз с подогревом сиденья + биде. В доме имеется печь-камин, LCD телевизор (триколор), холодильник, микроволновая печь, полноценная кухня, предоставляется постельной белье, полотенца. Имеется мангал и угли для шашлыка.
+                                Усадьба располагается на хуторе, в деревне Янушки (Брестское направление) 40 минут езды от кольцевой дороги в сторону г.п. Рубежевичи. Дом площадью 78 м. кв. , состоящий из 2 комнат и 6 спальных мест. Внутренняя обстановка напоминает квартиру – студию: из небольшой прихожей попадаешь в просторную комнату с компактной кухонной зоной. Далее идет вторая небольшая комната. Сан. узел. оборудован всем необходимым: унитаз с подогревом сиденья + биде. В доме имеется печь-камин, LCD телевизор (триколор), холодильник, микроволновая печь, полноценная кухня, предоставляется постельной белье, полотенца. Имеется мангал и угли для шашлыка.
                                 </p>
-                                <p className={classes.home__aboutHomeMore__wrapper__text_title_bel}>Калi ласка, запрашаем да нас, пважаныя госцi !!!</p>
+                                <p className={classes.home__aboutHomeMore__wrapper__text_title_bel}></p>
                             </div>
                             <img alt='house outside' className={classes.home__aboutHomeMore__wrapper_img} src={require('../../img/aboutHome2.jpg')}/>
                         </div>
