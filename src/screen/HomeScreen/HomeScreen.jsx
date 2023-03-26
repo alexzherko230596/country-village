@@ -28,6 +28,9 @@ import img22 from '../../img/album22.jpg'
 import img23 from '../../img/album23.jpg'
 import img0 from '../../img/aboutHouse20.jpg'
 import sauna from '../../img/sauna.svg'
+import forest from '../../img/forest.svg'
+import bed from '../../img/bed.svg'
+import silent from '../../img/silent.svg'
 import leaf from '../../img/leaf.svg'
 import { Map } from "../../components/Map/Map";
 import BookPlace from "../../components/BookPlace/BookPlace";
@@ -53,6 +56,7 @@ export const HomeScreen = () => {
                                 duration={500}>
                                     Забронировать
                             </Link>
+                            <p className={classes.home__main__wrapper_bel}>Калi ласка, запрашаем да нас, пважаныя госцi !!!</p>
                         </div >
                    </div>
                 </section>
@@ -93,22 +97,22 @@ export const HomeScreen = () => {
                             <div className={classes.home__abouthome__wrapper__block__test} >
                                 <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
-                                        <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>Мы оборудовали домики </p>
+                                        <img src={forest} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                        <p>Хутор расположен в лесном массиве</p>
                                     </div> 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
                                     <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>Мы оборудовали домики </p>
+                                        <p>На территории баня и озеро</p>
                                     </div> 
                                 </div>
                                 <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
-                                    <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>Мы оборудовали домики </p>
+                                    <img src={bed} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                        <p>6 спальных мест</p>
                                     </div> 
                                     <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
-                                        <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>Мы оборудовали домики </p>
+                                        <img src={silent} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                        <p>Тишина и спокойствие</p>
                                     </div> 
                                 </div>
                                 
@@ -123,12 +127,8 @@ export const HomeScreen = () => {
                     <div className="g-container">
                         <div className={classes.home__aboutHomeMore__wrapper}>
                             <div className={classes.home__aboutHomeMore__wrapper__text}>
-                                <p className={classes.home__aboutHomeMore__wrapper__text_title}>Усадьба располагается на хуторе, в деревне Янушки (Брестское    направление) 40 минут езды от кольцевой дороги в сторону г.п. Рубежевичи. 
-                                    Дом теплый, отапливается круглосуточно электрокотлом с погодозависимой автоматикой.
-                                    Домик  находится  в экологической чистой  зоне, свежий воздух, т.к. хутор расположен  в лесном массиве, состоящей в основном из сосновой хвои. Возле  усадьбы протекает чистейшая  река СУЛА  всего в 70-ти  метрах от дома , в которой водится рыба форель. В летний зной , что бы отдохнуть от жары необходимо, и даже нужно искупаться в этой замечательной речке. Летом она не глубокая  и поэтому принимать водные ванны  можно и детям.
-                                    Здесь  царит тишина и спокойствие.  Все располагает к замечательному отдыху. Возле дома, а точнее к  бане (Баня отдельно стоящая, из соснового сруба 6х6) примыкает небольшое озерцо, где после бани можно окунуться зимой  в прорубь, а летом есть возможность половить и покормить рыбку. 
-                                    Участок просторный, площадью 25 соток Дом площадью  65 м. кв. В усадьбе 2 комнаты. Внутренняя обстановка напоминает квартиру – студию: из небольшой прихожей попадаешь в просторную комнату с компактной кухонной зоной  Далее идет вторая небольшая комната. Сан. узел. оборудован всем необходимым: унитаз с подогревом сиденья  + биде. В доме имеется печь-камин, LCD телевизор (триколор), холодильник, микроволновая печь, полноценная кухня, предоставляется постельной белье, полотенца.
-                                    Имеется мангал и угли для шашлыка. Дом очень теплый : обогревается паровым  электороотоплением посредством батарей, которые     проведены по всему дому с подогревом полов, имеется  печка  и  печь-камин. Подъездные пути хорошие: зимой чистят дорогу.
+                                <p className={classes.home__aboutHomeMore__wrapper__text_title}>
+                                Усадьба располагается на хуторе, в деревне Янушки (Брестское направление) 40 минут езды от кольцевой дороги в сторону г.п. Рубежевичи. .Участок просторный, площадью 25 соток Дом площадью 65 м. кв. В усадьбе 2 комнаты и 6 спальных мест. Внутренняя обстановка напоминает квартиру – студию: из небольшой прихожей попадаешь в просторную комнату с компактной кухонной зоной Далее идет вторая небольшая комната. Сан. узел. оборудован всем необходимым: унитаз с подогревом сиденья + биде. В доме имеется печь-камин, LCD телевизор (триколор), холодильник, микроволновая печь, полноценная кухня, предоставляется постельной белье, полотенца. Имеется мангал и угли для шашлыка.
                                 </p>
                             </div>
                             <img alt='house outside' className={classes.home__aboutHomeMore__wrapper_img} src={require('../../img/aboutHome2.jpg')}/>

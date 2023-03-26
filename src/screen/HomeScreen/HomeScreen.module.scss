@@ -28,7 +28,16 @@
                 line-height: 29px;
                 color: #EFEFEF;
                 text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
-                margin: 24px 0px 0px 0px;
+                margin: 12px 0px 0px 0px;
+            }
+
+            &_bel{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;
+                color: #EFEFEF;
+                text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+                margin: 48px 0px 0px 0px;
             }
 
             &_button{
@@ -183,7 +192,6 @@
 
                 &__test{
                     width: 543px;
-                    height: 201px;
                     flex-direction: column;
                     font-weight: 400;
                     font-size: 16px;
@@ -192,15 +200,14 @@
                     &__dscr{
                       margin-bottom: 24px;
                         width: 543px;
-                        height: 92px;
                         justify-content: space-between;
                         flex-direction: row;
 
                         &__box{
                             width: 212px;
-                            height: 92px;
                             flex-direction: column;
                             align-items: center;
+                            text-align: center;
 
 
                             &_img{
@@ -211,9 +218,10 @@
                         }
                         &__box2{
                             width: 212px;
-                            height: 92px;
+                            // height: 92px;
                             flex-direction: column;
                             align-items: center;
+                            text-align: center;
 
                             &_img2{
                                 width: 48px;
