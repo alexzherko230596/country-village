@@ -32,7 +32,7 @@ export const Map = () => {
                             </div>
                             <div className={classes.map__wrapper__info__data__item}>
                                 <img className={classes.map__wrapper__info__data__item_img} src={telegram} alt = {'address'}/>
-                                <p className={classes.map__wrapper__info__data__item_title}>@ElenaYanyshki</p>
+                                <a href="https://t.me/ElenaYanyshki" target="_blank" rel="noreferrer" className={classes.map__wrapper__info__data__item_title}>@ElenaYanyshki</a>
                             </div>
                         </div>
                     </div>

@@ -1,16 +1,21 @@
 .header{
+
     width: 100%;
     margin-top: 28px;
     z-index: 15;
     position: absolute;
+    display: flex;
     
     &__wrapper{
+
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        // width: 100%;
 
-        &_logo{
-
+        img{
+            width: 202px;
+            height: 53px;
         }
     
         &__menu{
@@ -52,5 +57,42 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .header{
+
+        &__wrapper{
+    
+            img{
+                width: 140px;
+            }
+        
+            &__menu{
+
+                &__list{
+        
+                    &_item{
+                        margin: 0px 16px;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+        
+                    &_item:last-child{
+                        margin: 0px 0px 0px 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .header{
+        display: none;
     }
 }

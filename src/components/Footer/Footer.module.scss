@@ -54,3 +54,95 @@
         }
     }
 }
+
+@media only screen and (max-width: 992px) {
+    .footer{
+        margin-top: 80px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        min-height: 260px;
+    
+        &__wrapper{
+    
+            &_logo{
+                width: 140px;
+                height: 55px;
+            }
+    
+            &__info{
+
+                &__item{
+    
+                    &_img{
+                        width: 24px;
+                        height: 24px;
+                    }
+    
+                    &_title{
+                        margin-left: 12px;
+                        font-weight: 600;
+                        font-size: 13px;
+                        line-height: 20px;
+                        color: #E6DBCA;
+                    }
+                }
+            }
+    
+            &_final{
+                margin-top: 32px;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #E6DBCA;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .footer{
+        margin-top: 80px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        min-height: 260px;
+    
+        &__wrapper{
+    
+            &_logo{
+                width: 140px;
+                height: 55px;
+            }
+    
+            &__info{
+
+                flex-direction: column;
+
+                &__item{
+                    margin-top: 24px;
+    
+                    &_img{
+                        width: 36px;
+                        height: 36px;
+                    }
+    
+                    &_title{
+                        margin-left: 12px;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #E6DBCA;
+                    }
+                }
+            }
+    
+            &_final{
+                margin-top: 32px;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #E6DBCA;
+            }
+        }
+    }
+}

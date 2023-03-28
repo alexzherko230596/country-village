@@ -17,10 +17,9 @@ const Price = () => {
                             </div>
                             <div className={classes.price__wrapper__blocks__middle}>
                                 <p className={classes.price__wrapper__blocks__middle_text}>Понедельник - Четверг</p>
-                                <p className={classes.price__wrapper__blocks__middle_text}></p>
-                                <p className={classes.price__wrapper__blocks__middle_text}> </p>
                             </div>
                             <p className={classes.price__wrapper__blocks_price}>150 <br/> рублей</p>
+                            <p className={classes.price__wrapper__blocks_price_mobile}>150 рублей</p>
                         </div>
 
                         <div className={classes.price__wrapper__blocks__item}>
@@ -29,10 +28,9 @@ const Price = () => {
                             </div>
                             <div className={classes.price__wrapper__blocks__middle}>
                                 <p className={classes.price__wrapper__blocks__middle_text}>Пятница - Воскресенье</p>
-                                <p className={classes.price__wrapper__blocks__middle_text}></p>
-                                <p className={classes.price__wrapper__blocks__middle_text}> </p>
                             </div>
                             <p className={classes.price__wrapper__blocks_price}>200 <br/> рублей</p>
+                            <p className={classes.price__wrapper__blocks_price_mobile}>200 рублей</p>
                         </div>
                         
                         <div className={classes.price__wrapper__blocks__item}>
@@ -41,10 +39,9 @@ const Price = () => {
                             </div>
                             <div className={classes.price__wrapper__blocks__middle}>
                                 <p className={classes.price__wrapper__blocks__middle_text}>Праздничные дни</p>
-                                <p className={classes.price__wrapper__blocks__middle_text}></p>
-                                <p className={classes.price__wrapper__blocks__middle_text}> </p>
                             </div>
-                            <p className={`${classes.price__wrapper__blocks_price} ${classes.price__wrapper__blocks_price_low}`}>Стоимость<br/>договорная</p>
+                            <p className={`${classes.price__wrapper__blocks_price} ${classes.price__wrapper__blocks_price_low}`}>Стоимость договорная</p>
+                            <p className={classes.price__wrapper__blocks_price_mobile}>Стоимость договорная</p>
                         </div>
                     </div>
                     <p className={classes.price__wrapper_more}>Дополнительные услуги</p>

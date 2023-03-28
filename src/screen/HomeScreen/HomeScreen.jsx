@@ -88,37 +88,34 @@ export const HomeScreen = () => {
                     <img src={leaf} className={classes.home__abouthome_img} alt="Лист"/>
                     <div className="g-container" >
                         <div className={classes.home__abouthome__wrapper}>
-                        <div className={classes.home__abouthome__wrapper__img}> 
-                        <img src={img0} alt="Избушка в Янушках первое фото"/>
-                        </div>
-                        <div className={classes.home__abouthome__wrapper__block}>
-                            <p className={classes.home__abouthome__wrapper__block_title}>О Доме</p>
-                            
-                            <div className={classes.home__abouthome__wrapper__block__test} >
-                                <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
-                                    <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
-                                        <img src={forest} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>Хутор расположен в лесном массиве</p>
-                                    </div> 
-                                    <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
-                                    <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>На территории баня и озеро</p>
-                                    </div> 
+                            <img src={img0} alt="Избушка в Янушках первое фото" className={classes.home__abouthome__wrapper__img}/>
+                            <div className={classes.home__abouthome__wrapper__block}>
+                                <p className={classes.home__abouthome__wrapper__block_title}>О Доме</p>
+                                <div className={classes.home__abouthome__wrapper__block__test} >
+                                    <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
+                                        <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
+                                            <img src={forest} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                            <p>Хутор расположен в лесном массиве</p>
+                                        </div> 
+                                        <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
+                                        <img src={sauna} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                            <p>На территории баня и озеро</p>
+                                        </div> 
+                                    </div>
+                                    <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
+                                        <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
+                                        <img src={bed} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                            <p>6 спальных мест</p>
+                                        </div> 
+                                        <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
+                                            <img src={silent} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
+                                            <p>Тишина и спокойствие</p>
+                                        </div> 
+                                    </div>
+                                    
                                 </div>
-                                <div className={classes.home__abouthome__wrapper__block__test__dscr} > 
-                                    <div className={classes.home__abouthome__wrapper__block__test__dscr__box}> 
-                                    <img src={bed} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>6 спальных мест</p>
-                                    </div> 
-                                    <div className={classes.home__abouthome__wrapper__block__test__dscr__box2}> 
-                                        <img src={silent} className={classes.home__abouthome__wrapper__block__test__dscr__box_img} alt='sauna'/>
-                                        <p>Тишина и спокойствие</p>
-                                    </div> 
-                                </div>
-                                
+                                <p className={classes.home__abouthome__wrapper__block_price}></p>
                             </div>
-                            <p className={classes.home__abouthome__wrapper__block_price}></p>
-                        </div>
                         </div>
                     </div>
                 </section>

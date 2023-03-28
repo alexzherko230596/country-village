@@ -19,6 +19,7 @@ div{
   width: 1300px;
   padding: 0px 30px;
   flex-direction: column;
+  position: relative;
 }
 
 .g-wrapperScreens{
@@ -48,4 +49,14 @@ p{
 
 div.leaflet-bottom.leaflet-right{
   display: none;
+}
+
+section{
+  display: flex;
+}
+
+@media only screen and (max-width: 1300px) {
+  .g-container{
+    width: 100%;
+  }
 }

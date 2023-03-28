@@ -1,10 +1,13 @@
 .home{
 
     overflow: hidden;
+    width: 100%;
+    position: relative;
 
     &__main{
         background:  url(../../img//mainPage.jpg)center center/cover no-repeat;
         width: 100%;
+        min-width: 1300px;
         height: 804px;
         display: flex;
         align-items: center;
@@ -68,6 +71,7 @@
             }
         }
     }
+
     &__about{
         width: 100%;
         height: 270px;
@@ -102,8 +106,6 @@
                     margin-top: 24px;
                     margin-left: 24px;
                     width: 250px;
-                    
-                    
                 }
             }
 
@@ -149,12 +151,12 @@
     &__photoBlock::after{
         content: '';
         width: 100%;
-        height: 300px;
+        height: 608px;
         background: rgba(255, 255, 255, 0.1);
         position: absolute;
-        top: 50%;
+        top: 0;
         z-index: -1;
-        transform: translateY(-50%);
+        // transform: translateY(-50%);
     }
 
     &__abouthome{
@@ -179,7 +181,6 @@
             
             
             &__img{
-              background-color: gold;
               width: 50%;
             }
             &__block{
@@ -293,18 +294,633 @@
                     margin-top: 48px;
                     line-height: 135%;
                     letter-spacing: 0.02em;
-
-                    &_bel{
-                        margin-top: 48px;
-                        text-align: center;
-                        font-weight: 700;
-                        
-                    }
                 }
             }
 
             &_img{
                 width: 48%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .home{
+
+        &__main{
+
+
+            min-width: auto;
+    
+            &__wrapper{
+
+                &_h1{
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 36px;
+                }
+                
+                &_h2{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin: 24px 0px 0px 0px;
+                }
+    
+                &_bel{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 29px;
+                    margin: 24px 0px 0px 0px;
+                }
+
+                &_button{
+                    width: 290px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-top: 24px;
+                    background: #746450;
+                }
+
+            }
+
+        }
+
+        &__about{
+
+            &__box{
+    
+                &__item{
+                
+                    &_title{
+                        font-size: 16px;
+                    }
+
+                    &_descr{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-top: 24px;
+                        margin-left: 24px;
+                        width: 100%;
+                        padding-right: 28px;
+                    }
+                }
+    
+                &__item::after{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 1px;
+                    background-color: #99856C;
+                    right: 0px;
+                }
+    
+                &__item:first-child:before{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 1px;
+                    background-color: #99856C;
+                    left: 0px;
+                }
+            }
+        }
+
+        &__abouthome{
+
+            height: auto;
+    
+            &_img{
+
+                width: 40%;
+
+            }
+            
+            &__wrapper{
+                width: 100%;
+                
+                &__img{
+                  width: 50%;
+                }
+
+                &__block{
+                    width: 100%;
+                    padding: 12px 24px;
+    
+                    &__test{
+                        width: 100%;
+                        font-size: 14px;
+    
+                        &__dscr{
+                            margin-bottom: 24px;
+                            width: 100%;
+    
+                            &__box{
+                                width: 40%;
+                            }
+                            &__box2{
+                                width: 40%;
+                            }
+                        }
+                    }
+
+                    &_title{
+                        font-size: 22px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+
+        &__aboutHomeMore{
+
+            margin-top: 0px;  
+            
+            &__wrapper{
+    
+                &__text{
+                    width: 48%;
+    
+                    &_title{
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: 0.04em;
+                        margin-top: 0px;
+                    }
+                }
+    
+                &_img{
+                    width: 48%;
+                }
+            }
+        }
+
+        &__photoBlock{
+            margin-top: 80px;
+    
+            &__wrapper{
+    
+                &__slider{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .home{
+
+        &__abouthome{
+
+            height: auto;
+    
+            &_img{
+
+                width: 40%;
+
+            }
+            
+            &__wrapper{
+                width: 100%;
+                flex-direction: column;
+                height: fit-content;
+                
+                &__img{
+                  width: 100%;
+                }
+            }
+        }
+
+        &__aboutHomeMore{
+
+            margin-top: 0px;  
+            
+            &__wrapper{
+                flex-direction: column-reverse;
+    
+                &__text{
+                    width: 100%;
+    
+                    &_title{
+                        margin-top: 24px;
+                    }
+                }
+    
+                &_img{
+                    width: 100%;
+                }
+            }
+        }
+
+        &__photoBlock{
+            margin-top: 80px;
+    
+            &__wrapper{
+    
+                &__slider{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .home{
+    
+        &__main{
+            background:  url(../../img//mainPage.jpg)center center/cover no-repeat;
+            width: 100%;
+            min-width: none;
+            height: 100vh;
+    
+            &__wrapper{
+
+                width: 100%;
+    
+                &_h1{
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+                
+                &_h2{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+    
+                &_bel{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin: 32px 0px 0px 0px;
+                }
+    
+                &_button{
+                    width: 35%;
+                    min-width: 200px;
+                    height: 56px;
+                    background: #99856C;
+                    border-radius: 12px;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+    
+        &__about{
+            width: 100%;
+            height: auto;
+           
+            &__box{
+                
+                height: auto;
+                flex-wrap: wrap;
+    
+                &__item{
+                    
+                    height: 220px;
+                    width: 50%;
+                    justify-content: flex-start;
+                
+                    &_title{
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-top: 40px;
+                       
+                    }
+    
+                    &_descr{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-top: 24px;
+                        margin-left: 24px;
+                        width: 90%;
+                    }
+                }
+    
+                &__item:nth-child(3n):before{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 1px;
+                    background-color: #99856C;
+                    left: 0px;
+                }
+            }
+            
+        }
+    
+        &__photoBlock{
+            margin-top: 80px;
+    
+            &__wrapper{
+    
+                &__slider{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    
+        &__photoBlock::after{
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+    
+        &__abouthome{
+            width: 100%;
+            height: auto;
+    
+            &_img{
+                position: absolute;
+                right: 0px;
+                top: -120px;
+                transform: rotate(-10deg);
+            }
+            
+            &__wrapper{
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+                justify-content: space-between;
+                
+                
+                &__img{
+                  width: 100%;
+                  height: 400px;
+                }
+                &__block{
+                    align-items: center;
+                    width: 100%;
+                    padding: 43px 0px 12px 0px;
+    
+                    &__test{
+                        width: 100%;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-top: 24px;
+    
+                        &__dscr{
+                          margin-bottom: 24px;
+                            width: 100%;
+                            justify-content: space-between;
+                            flex-direction: row;
+    
+                            &__box{
+                                width: 48%;
+                                flex-direction: column;
+                                align-items: center;
+                                text-align: center;
+    
+    
+                                &_img{
+                                    width: 48px;
+                                    height: 48px;
+                                    margin-bottom: 24px;
+                                }
+                            }
+                            &__box2{
+                                width: 48%;
+                                // height: 92px;
+                                flex-direction: column;
+                                align-items: center;
+                                text-align: center;
+    
+                                &_img2{
+                                    width: 48px;
+                                    height: 48px;
+                                    background-color: black;
+                                    margin-bottom: 24px;
+                                }
+                            }
+                        }
+                      
+                    }
+
+                    &_title{
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+    
+        &__aboutHomeMore{
+            width: 100%;
+            display: flex; 
+            margin-top: 16px;  
+            
+            &__wrapper{
+                flex-direction: column-reverse;
+    
+                &__text{
+                    width: 100%;
+    
+                    &_title{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #E6DBCA;
+                        margin-top: 48px;
+                        line-height: 135%;
+                        letter-spacing: 0.02em;
+                    }
+                }
+    
+                &_img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .home{
+    
+        &__main{
+            background:  url(../../img//mainPage.jpg)center center/cover no-repeat;
+            width: 100%;
+            min-width: none;
+            height: 100vh;
+    
+            &__wrapper{
+
+                width: 100%;
+    
+                &_h1{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+                
+                &_h2{
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+    
+                &_bel{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin: 32px 0px 0px 0px;
+                    align-items: center;
+                    text-align: center;
+                }
+    
+                &_button{
+                    width: 100%;
+                    min-width: 200px;
+                    height: 54px;
+                    background: #99856C;
+                    border-radius: 12px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        &__about{
+            width: 100%;
+            height: auto;
+           
+            &__box{
+                
+                height: auto;
+                flex-wrap: wrap;
+    
+                &__item{
+                    
+                    height: 150px;
+                    width: 100%;
+                    justify-content: flex-start;
+                
+                    &_title{
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-top: 40px;
+                       
+                    }
+    
+                    &_descr{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-top: 24px;
+                        margin-left: 24px;
+                        width: 90%;
+                    }
+                }
+    
+                &__item:nth-child(3n):before{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 1px;
+                    background-color: #99856C;
+                    left: 0px;
+                }
+
+                &__item::before{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 1px;
+                    background-color: #99856C;
+                    left: 0px;
+                }
+
+                &__item::after{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 1px;
+                    background-color: #99856C;
+                    right: 0px;
+                }
+            }
+        }
+
+        &__abouthome{
+            
+            &__wrapper{
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+                justify-content: space-between;
+                
+                
+                &__img{
+                    margin-top: 40px;
+                  width: 100%;
+                  height: 300px;
+                }
+                &__block{
+                    align-items: center;
+                    width: 100%;
+                    padding: 43px 0px 12px 0px;
+    
+                    &__test{
+                        width: 100%;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-top: 24px;
+    
+                        &__dscr{
+                          margin-bottom: 24px;
+                            width: 100%;
+                            justify-content: space-between;
+                            flex-direction: row;
+    
+                            &__box{
+                                width: 48%;
+                                flex-direction: column;
+                                align-items: center;
+                                text-align: center;
+    
+    
+                                &_img{
+                                    width: 36px;
+                                    height: 36px;
+                                    margin-bottom: 24px;
+                                }
+                            }
+                        }
+                      
+                    }
+
+                    &_title{
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 34px;
+                    }
+                }
             }
         }
     }
